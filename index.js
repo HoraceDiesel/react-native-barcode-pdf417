@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import { ART, Text, View, ActivityIndicator, StyleSheet } from "react-native";
+import { View, ActivityIndicator, StyleSheet } from "react-native";
+import { ART } from "@react-native-community/art";
 
 const { Group, Shape, Surface } = ART;
 import createPDF417 from "./lib/pdf417-min";
